@@ -1,0 +1,258 @@
+/* Variables de color */
+:root {
+  --fondo-principal: #1A1A2E;
+  --fondo-secciones: #162447;
+  --texto-principal: #FFFFFF;
+  --texto-secundario: #EAEAEA;
+  --boton-principal: #F76C6C;
+  --boton-principal-hover: #D9534F;
+  --boton-secundario: #21E6C1;
+  --boton-secundario-hover: #1DBFA0;
+  --borde-detalle: #0F3460;
+}
+
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--fondo-principal);
+  color: var(--texto-principal);
+  font-size: 1rem; /* 1rem = 10px */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--fondo-secciones);
+  box-shadow: 0px 0.4rem 0.6rem rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+/* Filtros */
+.filtros {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+.filtros button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--boton-secundario);
+  color: var(--texto-principal);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.filtros button:hover {
+  background-color: var(--boton-secundario-hover);
+}
+
+/* Productos */
+.productos {
+  display: flex;
+  justify-content: space-between; /* Alinea los productos con espacio entre ellos */
+  flex-wrap: wrap; /* Permite que los productos se acomoden en varias filas si es necesario */
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.producto-card {
+  background-color: var(--fondo-secciones);
+  border: 1px var(--borde-detalle);
+  border-radius: 0.8rem;
+  overflow: hidden;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  width: 25rem; /* Tamaño fijo para las tarjetas */
+  font-weight: bold; /* Letras en negrita */
+}
+
+.producto-card:hover {
+  transform: translateY(-0.5rem);
+}
+
+.producto-imagen {
+  width: 100%;
+  height: 15rem; /* Ajustado a rem */
+  object-fit: cover;
+}
+
+.producto-nombre,
+.producto-marca,
+.producto-precio {
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.btn-detalle {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #12604f;
+  color: white;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.btn-detalle:hover {
+  background-color: #0f4e3e;
+}
+
+/* Carrito *//* Estilos para el carrito */
+.carrito-container {
+  position: relative;
+  display: inline-block;
+}
+
+.carrito-toggle {
+  padding: 1rem 2rem;
+  background-color: var(--boton-secundario);
+  color: var(--texto-principal);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.carrito {
+  position: absolute;
+  top: 4rem; /* Ajusta la posición */
+  right: 0;
+  width: 30rem;
+  background-color: var(--fondo-secciones);
+  border: 1px solid var(--borde-detalle);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0px 0.4rem 0.6rem rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.carrito table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.carrito th,
+.carrito td {
+  padding: 0.5rem;
+  text-align: left;
+  color: var(--texto-secundario);
+}
+
+.carrito th {
+  background-color: var(--borde-detalle);
+}
+
+.carrito td img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.vaciar-carrito {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--boton-principal);
+  color: var(--texto-principal);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.vaciar-carrito:hover {
+  background-color: var(--boton-principal-hover);
+}
+
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--fondo-secciones);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0.6rem 1rem rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  width: 25rem;
+}
+
+.modal img {
+  width: 100%;
+  height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.btn-cerrar {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--boton-principal);
+  color: var(--texto-principal);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-cerrar:hover {
+  background-color: var(--boton-principal-hover);
+}
+/* Estilo para la barra de búsqueda */
+.buscador-container {
+  position: relative;
+  width: 100%;
+  max-width: 25rem; /* Ajusta el tamaño máximo de la barra */
+  margin: 0 auto;
+}
+
+.buscador-input {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background-color: #fff;
+  color: #333;
+}
+
+.buscador-input:focus {
+  outline: none;
+  border-color: #12604f; /* Color de borde al hacer foco */
+  box-shadow: 0 0 0.5rem rgba(18, 96, 79, 0.5);
+}
+
+.buscador-input::placeholder {
+  color: #aaa; /* Color de texto para el placeholder */
+}
+
+.buscador-input:hover {
+  border-color: #12604f;
+}

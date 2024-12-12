@@ -1,0 +1,511 @@
+[
+{
+    "id": 1,
+    "nombre": "Laptop Dell XPS 13",
+    "categoria": "laptop",
+    "marca": "Dell",
+    "precio": 1200,
+    "stock": 25,
+    "caracteristicas": {
+        "procesador": "Intel Core i7",
+        "ram": "16GB",
+        "almacenamiento": "512GB SSD",
+        "pantalla": "13.3 pulgadas",
+        "sistema_operativo": "Windows 11",
+        "peso": "1.2 kg"
+    },
+    "imagen": "img/Laptop Dell XPS 13.jpeg",
+    "destacado": false 
+},
+{
+    "id": 2,
+    "nombre": "MacBook Pro 16\"",
+    "categoria": "laptop",
+    "marca": "Apple",
+    "precio": 2500,
+    "stock": 10,
+    "caracteristicas": {
+        "procesador": "Apple M1 Pro",
+        "ram": "32GB",
+        "almacenamiento": "1TB SSD",
+        "pantalla": "16 pulgadas",
+        "sistema_operativo": "macOS",
+        "peso": "2.0 kg"
+    },
+    "imagen": "img/MacBook Pro 16.jpeg",
+    "destacado": false 
+},
+{
+    "id": 3,
+    "nombre": "Asus ROG Zephyrus G14",
+    "categoria": "laptop",
+    "marca": "Asus",
+    "precio": 1800,
+    "stock": 15,
+    "caracteristicas": {
+      "procesador": "AMD Ryzen 9",
+      "ram": "16GB",
+      "almacenamiento": "1TB SSD",
+      "pantalla": "14 pulgadas",
+      "sistema_operativo": "Windows 11",
+      "peso": "1.7 kg"
+    },
+    "imagen": "img/Asus ROG Zephyrus G14.jpeg",
+    "destacado": true 
+  },
+  {
+    "id": 4,
+    "nombre": "HP Spectre x360",
+    "categoria": "laptop",
+    "marca": "HP",
+    "precio": 1400,
+    "stock": 20,
+    "caracteristicas": {
+      "procesador": "Intel Core i7",
+      "ram": "16GB",
+      "almacenamiento": "512GB SSD",
+      "pantalla": "13.5 pulgadas",
+      "sistema_operativo": "Windows 11",
+      "peso": "1.3 kg"
+    },
+    "imagen": "img/HP Spectre x360.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 5,
+    "nombre": "Lenovo ThinkPad X1 Carbon",
+    "categoria": "laptop",
+    "marca": "Lenovo",
+    "precio": 1600,
+    "stock": 18,
+    "caracteristicas": {
+      "procesador": "Intel Core i7",
+      "ram": "16GB",
+      "almacenamiento": "1TB SSD",
+      "pantalla": "14 pulgadas",
+      "sistema_operativo": "Windows 11",
+      "peso": "1.1 kg"
+    },
+    "imagen": "img/Lenovo ThinkPad X1 Carbon.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 6,
+    "nombre": "Acer Aspire 5",
+    "categoria": "laptop",
+    "marca": "Acer",
+    "precio": 600,
+    "stock": 30,
+    "caracteristicas": {
+      "procesador": "Intel Core i5",
+      "ram": "8GB",
+      "almacenamiento": "256GB SSD",
+      "pantalla": "15.6 pulgadas",
+      "sistema_operativo": "Windows 10",
+      "peso": "1.8 kg"
+    },
+    "imagen": "img/Acer Aspire 5.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 7,
+    "nombre": "Monitor LG UltraGear",
+    "categoria": "periferico",
+    "marca": "LG",
+    "precio": 300,
+    "stock": 50,
+    "caracteristicas": {
+      "tamaño": "27 pulgadas",
+      "resolucion": "2560x1440",
+      "tipo_pantalla": "IPS",
+      "tasa_refresco": "144Hz",
+      "conectividad": ["HDMI", "DisplayPort"],
+      "peso": "5.6 kg"
+    },
+    "imagen": "img/Monitor LG UltraGear.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 8,
+    "nombre": "Teclado Mecánico Razer BlackWidow",
+    "categoria": "accesorio",
+    "marca": "Razer",
+    "precio": 150,
+    "stock": 40,
+    "caracteristicas": {
+      "tipo": "mecánico",
+      "retroiluminacion": "RGB",
+      "switches": "Razer Green",
+      "conectividad": "USB",
+      "peso": "1.3 kg"
+    },
+    "imagen": "img/Teclado Mecánico Razer BlackWidow.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 9,
+    "nombre": "Ratón Logitech G502 Hero",
+    "categoria": "accesorio",
+    "marca": "Logitech",
+    "precio": 70,
+    "stock": 60,
+    "caracteristicas": {
+      "dpi_max": "16000",
+      "tipo_sensor": "Óptico",
+      "botones_programables": 11,
+      "conectividad": "USB",
+      "peso": "121g"
+    },
+    "imagen": "img/Ratón Logitech G502 Hero.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 10,
+    "nombre": "Auriculares Corsair Void RGB Elite",
+    "categoria": "accesorio",
+    "marca": "Corsair",
+    "precio": 100,
+    "stock": 35,
+    "caracteristicas": {
+      "tipo": "inalámbrico",
+      "duracion_bateria": "16 horas",
+      "conectividad": "USB, Bluetooth",
+      "peso": "400g"
+    },
+    "imagen": "img/Auriculares Corsair Void RGB Elite.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 11,
+    "nombre": "Tablet iPad Pro 12.9\"",
+    "categoria": "tablet",
+    "marca": "Apple",
+    "precio": 1200,
+    "stock": 25,
+    "caracteristicas": {
+      "procesador": "Apple M1",
+      "almacenamiento": "256GB",
+      "pantalla": "12.9 pulgadas",
+      "sistema_operativo": "iPadOS",
+      "peso": "682g"
+    },
+    "imagen": "img/Tablet iPad Pro 12.9.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 12,
+    "nombre": "Samsung Galaxy Tab S8",
+    "categoria": "tablet",
+    "marca": "Samsung",
+    "precio": 800,
+    "stock": 22,
+    "caracteristicas": {
+      "procesador": "Qualcomm Snapdragon 888",
+      "almacenamiento": "256GB",
+      "pantalla": "11 pulgadas",
+      "sistema_operativo": "Android",
+      "peso": "503g"
+    },
+    "imagen": "img/Samsung Galaxy Tab S8.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 13,
+    "nombre": "Disco Duro Externo WD 4TB",
+    "categoria": "almacenamiento",
+    "marca": "Western Digital",
+    "precio": 100,
+    "stock": 40,
+    "caracteristicas": {
+      "capacidad": "4TB",
+      "tipo": "HDD",
+      "conectividad": "USB 3.0",
+      "peso": "240g"
+    },
+    "imagen": "img/Disco Duro Externo WD 4TB.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 14,
+    "nombre": "SSD Samsung 970 Evo 1TB",
+    "categoria": "almacenamiento",
+    "marca": "Samsung",
+    "precio": 150,
+    "stock": 50,
+    "caracteristicas": {
+      "capacidad": "1TB",
+      "tipo": "SSD",
+      "interface": "NVMe",
+      "peso": "8g"
+    },
+    "imagen": "img/SSD Samsung 970 Evo 1TB.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 15,
+    "nombre": "Bocinas Bluetooth JBL Charge 5",
+    "categoria": "audio",
+    "marca": "JBL",
+    "precio": 200,
+    "stock": 28,
+    "caracteristicas": {
+      "conectividad": "Bluetooth",
+      "duracion_bateria": "20 horas",
+      "resistencia_agua": "IP67",
+      "peso": "960g"
+    },
+    "imagen": "img/Bocinas Bluetooth JBL Charge 5.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 16,
+    "nombre": "Cámara Web Logitech C920",
+    "categoria": "periferico",
+    "marca": "Logitech",
+    "precio": 80,
+    "stock": 40,
+    "caracteristicas": {
+      "resolucion": "1080p",
+      "conectividad": "USB",
+      "campo_de_vision": "78 grados",
+      "peso": "162g"
+    },
+    "imagen": "img/Cámara Web Logitech C920.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 17,
+    "nombre": "Mouse Pad SteelSeries QcK",
+    "categoria": "accesorio",
+    "marca": "SteelSeries",
+    "precio": 15,
+    "stock": 60,
+    "caracteristicas": {
+      "tamaño": "450x400 mm",
+      "material": "Tela",
+      "grosor": "3 mm",
+      "antideslizante": true,
+      "peso": "150g"
+    },
+    "imagen": "img/Mouse Pad SteelSeries QcK.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 18,
+    "nombre": "Procesador Intel Core i9-11900K",
+    "categoria": "componente",
+    "marca": "Intel",
+    "precio": 500,
+    "stock": 25,
+    "caracteristicas": {
+      "frecuencia_base": "3.5 GHz",
+      "nucleos": 8,
+      "hilos": 16,
+      "tamaño_cache": "16MB",
+      "compatibilidad_socket": "LGA1200"
+    },
+    "imagen": "img/Procesador Intel Core i9-11900K.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 19,
+    "nombre": "Tarjeta Gráfica NVIDIA GeForce RTX 3080",
+    "categoria": "componente",
+    "marca": "NVIDIA",
+    "precio": 900,
+    "stock": 10,
+    "caracteristicas": {
+      "memoria": "10GB GDDR6X",
+      "velocidad_reloj": "1.44 GHz",
+      "puertos": ["HDMI", "DisplayPort"],
+      "consumo_energia": "320W",
+      "peso": "1.35 kg"
+    },
+    "imagen": "img/Tarjeta Gráfica NVIDIA GeForce RTX 3080.jpeg",
+    "destacado": true 
+  },
+  {
+    "id": 20,
+    "nombre": "Impresora HP LaserJet Pro M404dn",
+    "categoria": "periferico",
+    "marca": "HP",
+    "precio": 250,
+    "stock": 30,
+    "caracteristicas": {
+      "tipo": "Láser",
+      "conectividad": ["USB", "Ethernet"],
+      "velocidad_impresion": "38 ppm",
+      "resolucion": "1200x1200 dpi",
+      "peso": "8.6 kg"
+    },
+    "imagen": "img/Impresora HP LaserJet Pro M404dn.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 21,
+    "nombre": "Apple Watch Series 7",
+    "categoria": "accesorio",
+    "marca": "Apple",
+    "precio": 400,
+    "stock": 20,
+    "caracteristicas": {
+      "tamaño_pantalla": "41mm",
+      "conectividad": ["Wi-Fi", "Bluetooth"],
+      "duracion_bateria": "18 horas",
+      "resistencia_agua": "IPX7",
+      "peso": "32g"
+    },
+    "imagen": "img/Apple Watch Series 7.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 22,
+    "nombre": "Router ASUS RT-AX88U",
+    "categoria": "redes",
+    "marca": "ASUS",
+    "precio": 300,
+    "stock": 15,
+    "caracteristicas": {
+      "velocidad_wifi": "6000 Mbps",
+      "puertos_lan": 8,
+      "frecuencia": ["2.4 GHz", "5 GHz"],
+      "compatibilidad": "Wi-Fi 6",
+      "peso": "1.02 kg"
+    },
+    "imagen": "img/Router ASUS RT-AX88U.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 23,
+    "nombre": "Smartphone Samsung Galaxy S22",
+    "categoria": "smartphone",
+    "marca": "Samsung",
+    "precio": 900,
+    "stock": 50,
+    "caracteristicas": {
+      "pantalla": "6.1 pulgadas",
+      "almacenamiento": "128GB",
+      "camara_principal": "50 MP",
+      "bateria": "3700 mAh",
+      "sistema_operativo": "Android"
+    },
+    "imagen": "img/Smartphone Samsung Galaxy S22.jpeg",
+    "destacado": true 
+  },
+  {
+    "id": 24,
+    "nombre": "Adaptador USB-C a HDMI",
+    "categoria": "accesorio",
+    "marca": "Belkin",
+    "precio": 25,
+    "stock": 100,
+    "caracteristicas": {
+      "entrada": "USB-C",
+      "salida": "HDMI",
+      "resolucion_maxima": "4K a 60Hz",
+      "peso": "50g"
+    },
+    "imagen": "img/Adaptador USB-C a HDMI.jpeg",
+     "destacado": false
+  },
+  {
+    "id": 25,
+    "nombre": "Cable de Carga Anker Powerline+ II",
+    "categoria": "accesorio",
+    "marca": "Anker",
+    "precio": 20,
+    "stock": 200,
+    "caracteristicas": {
+      "tipo": "USB-C",
+      "longitud": "1.8 metros",
+      "resistencia": "30,000 dobleces",
+      "peso": "60g"
+    },
+    "imagen": "img/Cable de Carga Anker Powerline+ II.jpeg",
+    "destacado": true 
+  },
+  {
+    "id": 26,
+    "nombre": "Sistema Mesh Wi-Fi Google Nest",
+    "categoria": "redes",
+    "marca": "Google",
+    "precio": 250,
+    "stock": 40,
+    "caracteristicas": {
+      "velocidad_wifi": "2200 Mbps",
+      "cobertura_maxima": "220 m²",
+      "compatibilidad": "Wi-Fi 5",
+      "puertos": ["Gigabit Ethernet"],
+      "peso": "380g"
+    },
+    "imagen": "img/Sistema Mesh Wi-Fi Google Nest.webp",
+    "destacado": false
+  },
+  {
+    "id": 27,
+    "nombre": "Mouse Inalámbrico Microsoft Surface",
+    "categoria": "accesorio",
+    "marca": "Microsoft",
+    "precio": 50,
+    "stock": 70,
+    "caracteristicas": {
+      "conectividad": "Bluetooth",
+      "duracion_bateria": "12 meses",
+      "dpi": 1000,
+      "peso": "78g"
+    },
+    "imagen": "img/Mouse Inalámbrico Microsoft Surface.jpeg",
+    "destacado": true 
+  },
+  {
+    "id": 28,
+    "nombre": "Laptop Microsoft Surface Laptop 4",
+    "categoria": "laptop",
+    "marca": "Microsoft",
+    "precio": 1500,
+    "stock": 12,
+    "caracteristicas": {
+      "procesador": "Intel Core i7",
+      "ram": "16GB",
+      "almacenamiento": "512GB SSD",
+      "pantalla": "13.5 pulgadas",
+      "sistema_operativo": "Windows 11",
+      "peso": "1.28 kg"
+    },
+    "imagen": "img/Laptop Microsoft Surface Laptop 4.jpeg",
+    "destacado": false
+  },
+  {
+    "id": 29,
+    "nombre": "Audífonos Sony WH-1000XM4",
+    "categoria": "audio",
+    "marca": "Sony",
+    "precio": 350,
+    "stock": 30,
+    "caracteristicas": {
+      "cancelacion_ruido": true,
+      "duracion_bateria": "30 horas",
+      "conectividad": ["Bluetooth", "NFC"],
+      "peso": "254g"
+    },
+    "imagen": "img/Audífonos Sony WH-1000XM4.jpeg",
+    "destacado": true 
+  },
+  {
+    "id": 30,
+    "nombre": "Lámpara Inteligente Philips Hue",
+    "categoria": "smart_home",
+    "marca": "Philips",
+    "precio": 60,
+    "stock": 100,
+    "caracteristicas": {
+      "conectividad": "Bluetooth",
+      "control_via_app": true,
+      "compatible_con": ["Alexa", "Google Assistant"],
+      "potencia": "9W",
+      "peso": "72g"
+    },
+    "imagen": "img/Lámpara Inteligente Philips Hue.jpeg",
+    "destacado": true 
+  }
+]
